@@ -16,25 +16,22 @@ publicKey:"2zKZUOSxMiSxO73re"
 /*==================================================
 PRELOADER
 ==================================================*/
-
-
 const preloader = document.querySelector(".preloader");
 
 
 if(preloader){
 
-window.addEventListener("load",()=>{
 
 setTimeout(()=>{
 
+
 preloader.classList.add("hide");
 
-},800);
 
-});
+},1500);
+
 
 }
-
 
 
 /*==================================================
