@@ -1,77 +1,178 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Danila Studio | Frontend Developer</title>
-<meta name="description" content="Портфолио веб-разработчика Danila Studio">
+
+<meta name="description"
+content="Современная разработка сайтов с акцентом на дизайн, скорость и пользовательский опыт.">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-<div class="bg-grid"></div>
+<div class="noise"></div>
+<div class="gradient-bg"></div>
+<div class="grid"></div>
+<div class="cursor-glow"></div>
+
+<!-- PRELOADER -->
+
+<div class="preloader">
+
+<div class="loader-logo">
+
+<span>DANILA</span>
+
+<div class="loader-line"></div>
+
+</div>
+
+</div>
+
+<!-- HEADER -->
 
 <header class="header">
-  <div class="container">
-    <a class="logo" href="#">DANILA<span>.</span></a>
 
-    <nav class="nav">
-      <a href="#about">Обо мне</a>
-      <a href="#skills">Навыки</a>
-      <a href="#portfolio">Проекты</a>
-      <a href="#services">Услуги</a>
-      <a href="#contact">Контакты</a>
-    </nav>
+<div class="container">
 
-    <button id="burger" class="burger" aria-label="Меню">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
+<a href="#" class="logo">
+
+DANILA<span>.</span>
+
+</a>
+
+<nav class="nav">
+
+<a href="#about">Обо мне</a>
+
+<a href="#skills">Навыки</a>
+
+<a href="#portfolio">Проекты</a>
+
+<a href="#services">Услуги</a>
+
+<a href="#contact">Контакты</a>
+
+</nav>
+
+<button class="burger" id="burger">
+
+<span></span>
+<span></span>
+<span></span>
+
+</button>
+
+</div>
+
 </header>
+
+<!-- MOBILE MENU -->
+
+<div class="mobile-menu">
+
+<a href="#about">Обо мне</a>
+
+<a href="#skills">Навыки</a>
+
+<a href="#portfolio">Проекты</a>
+
+<a href="#services">Услуги</a>
+
+<a href="#contact">Контакты</a>
+
+</div>
 
 <main>
 
+<!-- HERO -->
+
 <section class="hero">
+
+<div class="hero-blur hero-blur-1"></div>
+<div class="hero-blur hero-blur-2"></div>
+
 <div class="container hero-grid">
 
 <div class="hero-left">
-<div class="badge">Frontend Developer • UI Designer</div>
+
+<div class="hero-badge">
+
+Frontend Developer • UI Designer
+
+</div>
 
 <h1>
-Создаю современные сайты,
-которые помогают бизнесу
-продавать больше.
+
+Создаю сайты,
+
+которые выглядят дорого,
+
+работают быстро
+
+и помогают продавать.
+
 </h1>
 
 <p class="hero-text">
-Я разрабатываю быстрые адаптивные сайты
-на HTML, CSS и JavaScript с акцентом
-на дизайн, анимации и удобство пользователей.
+
+Разрабатываю современные сайты с использованием HTML, CSS и JavaScript.
+Каждый проект создаётся с нуля, адаптируется под любые устройства и
+получает качественную анимацию, чистый код и высокую скорость загрузки.
+
 </p>
 
 <div class="hero-buttons">
-<a href="#portfolio" class="btn primary">Посмотреть проекты</a>
-<a href="#contact" class="btn secondary">Связаться</a>
+
+<a href="#portfolio" class="btn primary">
+
+Посмотреть проекты
+
+</a>
+
+<a href="#contact" class="btn secondary">
+
+Связаться
+
+</a>
+
 </div>
 
 <div class="hero-stats">
 
 <div class="stat">
+
 <h2>10+</h2>
-<span>Проектов</span>
+
+<span>Выполненных проектов</span>
+
 </div>
 
 <div class="stat">
-<h2>100%</h2>
-<span>Адаптивность</span>
+
+<h2>99</h2>
+
+<span>Google Performance</span>
+
 </div>
 
 <div class="stat">
+
 <h2>24/7</h2>
-<span>Поддержка</span>
+
+<span>Поддержка клиентов</span>
+
 </div>
 
 </div>
@@ -80,27 +181,1391 @@
 
 <div class="hero-right">
 
-<div class="glass-card">
-<div class="circle circle-1"></div>
-<div class="circle circle-2"></div>
+<div class="project-window">
 
-<h3>Последний проект</h3>
+<div class="window-top">
 
-<h2>Лапуня</h2>
+<div class="dots">
 
-<p>Премиальный сайт для груминг-салона с современным дизайном, анимациями и адаптацией под мобильные устройства.</p>
+<span></span>
+<span></span>
+<span></span>
 
-<a href="https://лапуня.рф" target="_blank">Открыть сайт →</a>
+</div>
+
+<div class="window-title">
+
+lapunya.rf
+
+</div>
+
+</div>
+
+<div class="window-content">
+
+<div class="screen">
+
+<div class="screen-glow"></div>
+
+<div class="screen-header">
+
+<div>
+
+<h3>
+
+Лапуня
+
+</h3>
+
+<p>
+
+Premium Grooming Website
+
+</p>
+
+</div>
+
+<div class="status">
+
+ONLINE
+
+</div>
+
+</div>
+
+<div class="screen-preview">
+
+<div class="preview-card large"></div>
+
+<div class="preview-grid">
+
+<div class="preview-card"></div>
+<div class="preview-card"></div>
+<div class="preview-card"></div>
+<div class="preview-card"></div>
+
+</div>
+
+</div>
+
+<div class="tech-list">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Responsive</span>
 
 </div>
 
 </div>
 
 </div>
+
+<a href="https://лапуня.рф" target="_blank" class="project-link">
+
+Открыть проект →
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TRUST -->
+
+<section class="trusted">
+
+<div class="container">
+
+<p class="section-mini">
+
+Проекты и технологии
+
+</p>
+
+<div class="trusted-track">
+
+<div>HTML5</div>
+
+<div>CSS3</div>
+
+<div>JavaScript</div>
+
+<div>Responsive</div>
+
+<div>UI Design</div>
+
+<div>Performance</div>
+
+<div>SEO</div>
+
+<div>Animations</div>
+
+<div>Glass UI</div>
+
+<div>Frontend</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+<div class="container">
+
+<div class="section-head">
+
+<span>
+
+Обо мне
+
+</span>
+
+<h2>
+
+Создаю сайты,
+
+которые выделяются
+
+среди конкурентов.
+
+</h2>
+
+</div>
+
+<div class="about-grid">
+
+<div class="about-left">
+
+<p>
+
+Меня зовут Данила.
+Я занимаюсь разработкой современных сайтов,
+где внимание уделяется каждой детали —
+от скорости загрузки до плавности анимаций.
+
+</p>
+
+<p>
+
+Каждый проект создаётся индивидуально.
+Без шаблонов,
+без перегруженного дизайна,
+с акцентом на удобство пользователей
+и реальную пользу для бизнеса.
+
+</p>
+
+<a href="#portfolio" class="btn primary">
+
+Мои проекты
+
+</a>
+
+</div>
+
+<div class="about-right">
+
+<div class="about-card">
+
+<h3>
+
+Почему именно такой подход?
+
+</h3>
+
+<ul>
+
+<li>Чистый и понятный код</li>
+
+<li>Максимальная адаптация под телефоны</li>
+
+<li>Высокая скорость загрузки</li>
+
+<li>Современные анимации</li>
+
+<li>Поддержка после запуска</li>
+
+<li>Индивидуальный дизайн</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section class="skills" id="skills">
+
+<div class="container">
+
+<div class="section-head">
+
+<span>
+
+Навыки
+
+</span>
+
+<h2>
+
+Инструменты,
+
+которыми я пользуюсь.
+
+</h2>
+
+</div>
+
+<div class="skills-grid">
+
+<div class="skill">
+
+<div class="skill-top">
+
+<span>HTML5</span>
+
+<b>100%</b>
+
+</div>
+
+<div class="progress">
+
+<div class="fill html"></div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="skill-top">
+
+<span>CSS3</span>
+
+<b>100%</b>
+
+</div>
+
+<div class="progress">
+
+<div class="fill css"></div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="skill-top">
+
+<span>JavaScript</span>
+
+<b>90%</b>
+
+</div>
+
+<div class="progress">
+
+<div class="fill js"></div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="skill-top">
+
+<span>UI / UX</span>
+
+<b>95%</b>
+
+</div>
+
+<div class="progress">
+
+<div class="fill ui"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- PORTFOLIO -->
+
+<section class="portfolio" id="portfolio">
+
+<div class="container">
+
+<div class="section-head">
+
+<span>Портфолио</span>
+
+<h2>
+
+Избранные проекты
+
+</h2>
+
+<p>
+
+Каждый сайт разрабатывается индивидуально —
+без шаблонов и с максимальным вниманием к деталям.
+
+</p>
+
+</div>
+
+<div class="projects">
+
+<!-- PROJECT -->
+
+<article class="project featured">
+
+<div class="project-content">
+
+<div class="project-label">
+
+Премиальный кейс
+
+</div>
+
+<h3>
+
+Лапуня
+
+</h3>
+
+<p>
+
+Современный сайт для груминг-салона с акцентом
+на визуальное восприятие, скорость загрузки,
+анимации и удобную онлайн-запись.
+
+</p>
+
+<div class="project-tech">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Responsive</span>
+
+</div>
+
+<div class="project-buttons">
+
+<a href="https://лапуня.рф"
+target="_blank"
+class="btn primary">
+
+Открыть сайт
+
+</a>
+
+<a href="#contact"
+class="btn secondary">
+
+Заказать похожий
+
+</a>
+
+</div>
+
+</div>
+
+<div class="project-preview">
+
+<div class="browser">
+
+<div class="browser-top">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<div class="browser-body">
+
+<div class="mockup-header"></div>
+
+<div class="mockup-banner"></div>
+
+<div class="mockup-grid">
+
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- EMPTY PROJECT -->
+
+<article class="project soon">
+
+<div class="soon-icon">
+
++
+
+</div>
+
+<h3>
+
+Следующий проект
+
+</h3>
+
+<p>
+
+Возможно именно здесь
+будет находиться ваш сайт.
+
+</p>
+
+</article>
+
+<!-- EMPTY PROJECT -->
+
+<article class="project soon">
+
+<div class="soon-icon">
+
+★
+
+</div>
+
+<h3>
+
+Новый кейс
+
+</h3>
+
+<p>
+
+Каждый новый проект
+становится частью портфолио.
+
+</p>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PROCESS -->
+
+<section class="process">
+
+<div class="container">
+
+<div class="section-head">
+
+<span>Процесс работы</span>
+
+<h2>
+
+От идеи
+до запуска сайта.
+
+</h2>
+
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<div class="timeline-number">
+
+01
+
+</div>
+
+<div>
+
+<h3>
+
+Обсуждение
+
+</h3>
+
+<p>
+
+Определяем задачи,
+структуру сайта и пожелания.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-number">
+
+02
+
+</div>
+
+<div>
+
+<h3>
+
+Дизайн
+
+</h3>
+
+<p>
+
+Создаётся современный интерфейс,
+который отражает стиль бизнеса.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-number">
+
+03
+
+</div>
+
+<div>
+
+<h3>
+
+Разработка
+
+</h3>
+
+<p>
+
+Верстка, адаптация,
+анимации и программирование.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-number">
+
+04
+
+</div>
+
+<div>
+
+<h3>
+
+Запуск
+
+</h3>
+
+<p>
+
+Размещение сайта,
+финальная проверка
+и поддержка.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section
+class="services"
+id="services">
+
+<div class="container">
+
+<div class="section-head">
+
+<span>Услуги</span>
+
+<h2>
+
+Чем могу помочь
+
+</h2>
+
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">
+
+<div class="service-number">
+
+01
+
+</div>
+
+<h3>
+
+Landing Page
+
+</h3>
+
+<p>
+
+Одностраничные сайты,
+которые эффективно
+презентуют услуги.
+
+</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-number">
+
+02
+
+</div>
+
+<h3>
+
+Корпоративные сайты
+
+</h3>
+
+<p>
+
+Современные сайты
+для компаний
+и малого бизнеса.
+
+</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-number">
+
+03
+
+</div>
+
+<h3>
+
+Редизайн
+
+</h3>
+
+<p>
+
+Полное обновление
+устаревших сайтов
+с современным интерфейсом.
+
+</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-number">
+
+04
+
+</div>
+
+<h3>
+
+Поддержка
+
+</h3>
+
+<p>
+
+Доработки,
+обновления
+и техническая помощь.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- WHY -->
+
+<section class="why">
+
+<div class="container">
+
+<div class="section-head">
+
+<span>Почему выбирают меня</span>
+
+<h2>
+
+Не просто делаю сайт.
+
+Создаю инструмент
+для бизнеса.
+
+</h2>
+
+</div>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<h3>
+
+Быстро
+
+</h3>
+
+<p>
+
+Максимально короткие сроки
+без потери качества.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<h3>
+
+Современно
+
+</h3>
+
+<p>
+
+Минимализм,
+дорогая типографика
+и современные анимации.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<h3>
+
+Адаптивно
+
+</h3>
+
+<p>
+
+Идеальная работа
+на телефонах,
+планшетах
+и компьютерах.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<h3>
+
+Поддержка
+
+</h3>
+
+<p>
+
+После запуска
+не исчезаю —
+помогаю и дальше.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- REVIEWS -->
+
+<section class="reviews">
+
+<div class="container">
+
+<div class="section-head">
+
+<span>Отзывы</span>
+
+<h2>
+
+Что говорят клиенты
+
+</h2>
+
+<p>
+
+Для меня важно не просто сдать проект,
+а сделать сайт, которым клиент будет доволен.
+
+</p>
+
+</div>
+
+<div class="reviews-grid">
+
+<div class="review-card">
+
+<div class="review-stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+«Очень понравился подход к работе.
+Все пожелания были учтены,
+сайт получился современным,
+быстрым и отлично выглядит на телефоне.»
+
+</p>
+
+<div class="review-author">
+
+<div class="avatar">
+
+А
+
+</div>
+
+<div>
+
+<h4>
+
+Александр
+
+</h4>
+
+<span>
+
+Владелец бизнеса
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="review-card">
+
+<div class="review-stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+«Работа выполнена раньше срока.
+Особенно понравились анимации
+и внимание к деталям.»
+
+</p>
+
+<div class="review-author">
+
+<div class="avatar">
+
+Е
+
+</div>
+
+<div>
+
+<h4>
+
+Екатерина
+
+</h4>
+
+<span>
+
+Предприниматель
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="review-card">
+
+<div class="review-stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+«Получился именно тот сайт,
+который хотелось показать клиентам.
+Современно и дорого.»
+
+</p>
+
+<div class="review-author">
+
+<div class="avatar">
+
+Д
+
+</div>
+
+<div>
+
+<h4>
+
+Дмитрий
+
+</h4>
+
+<span>
+
+Владелец компании
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="faq">
+
+<div class="container">
+
+<div class="section-head">
+
+<span>FAQ</span>
+
+<h2>
+
+Частые вопросы
+
+</h2>
+
+</div>
+
+<div class="faq-list">
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Сколько времени занимает разработка?
+
+<span>+</span>
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+
+В зависимости от сложности проекта —
+обычно от нескольких дней до нескольких недель.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Будет ли сайт адаптирован под телефон?
+
+<span>+</span>
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+
+Да. Все сайты корректно работают
+на смартфонах,
+планшетах и компьютерах.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Можно ли потом изменить сайт?
+
+<span>+</span>
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+
+Конечно.
+При необходимости сайт можно
+дорабатывать и расширять.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Поможете разместить сайт?
+
+<span>+</span>
+
+</button>
+
+<div class="faq-answer">
+
+<p>
+
+Да.
+Помогу с доменом,
+хостингом,
+SSL-сертификатом
+и публикацией.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section
+class="contact"
+id="contact">
+
+<div class="container">
+
+<div class="contact-grid">
+
+<div class="contact-info">
+
+<span class="section-mini">
+
+Связь
+
+</span>
+
+<h2>
+
+Давайте обсудим
+ваш проект.
+
+</h2>
+
+<p>
+
+Если вам нужен современный сайт,
+напишите мне —
+обсудим идею
+и найдём лучшее решение.
+
+</p>
+
+<div class="contact-items">
+
+<div>
+
+<h4>
+
+Telegram
+
+</h4>
+
+<p>
+
+@your_username
+
+</p>
+
+</div>
+
+<div>
+
+<h4>
+
+Email
+
+</h4>
+
+<p>
+
+mail@example.com
+
+</p>
+
+</div>
+
+<div>
+
+<h4>
+
+Локация
+
+</h4>
+
+<p>
+
+Работаю удалённо
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="contact-form">
+
+<form>
+
+<input
+type="text"
+placeholder="Ваше имя">
+
+<input
+type="email"
+placeholder="Email">
+
+<input
+type="text"
+placeholder="Тема">
+
+<textarea
+placeholder="Расскажите о проекте"></textarea>
+
+<button
+type="submit"
+class="btn primary">
+
+Отправить заявку
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+<div class="container">
+
+<div class="cta-box">
+
+<h2>
+
+Готовы создать
+современный сайт?
+
+</h2>
+
+<p>
+
+Давайте сделаем проект,
+который будет выделяться
+среди конкурентов.
+
+</p>
+
+<a
+href="#contact"
+class="btn primary">
+
+Связаться
+
+</a>
+
+</div>
+
+</div>
+
 </section>
 
 </main>
 
+<footer class="footer">
+
+<div class="container footer-grid">
+
+<div>
+
+<a href="#" class="logo">
+
+DANILA<span>.</span>
+
+</a>
+
+<p>
+
+Frontend Developer
+
+</p>
+
+</div>
+
+<div class="footer-links">
+
+<a href="#about">
+
+Обо мне
+
+</a>
+
+<a href="#portfolio">
+
+Проекты
+
+</a>
+
+<a href="#services">
+
+Услуги
+
+</a>
+
+<a href="#contact">
+
+Контакты
+
+</a>
+
+</div>
+
+<div class="footer-copy">
+
+© 2026 Danila Studio
+
+</div>
+
+</div>
+
+</footer>
+
+<button
+class="scroll-top"
+id="scrollTop">
+
+↑
+
+</button>
+
 <script src="script.js"></script>
+
 </body>
-</html>
+
+</html>  
