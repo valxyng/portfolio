@@ -1145,7 +1145,7 @@ Landing Page
 
 <h4>
 
-Екатерина
+Елизавета
 
 </h4>
 
@@ -1424,23 +1424,28 @@ mail@example.com
 
 <div class="contact-form">
 
-<form>
+<form id="contactForm">
 
 <input
 type="text"
-placeholder="Ваше имя">
+name="name"
+placeholder="Ваше имя"
+required>
 
 <input
 type="email"
+name="email"
 placeholder="Email">
 
 <input
 type="text"
-placeholder="Тема">
+name="phone"
+placeholder="Телефон">
 
 <textarea
+name="message"
 placeholder="Расскажите о проекте"></textarea>
-
+  
 <button
 type="submit"
 class="btn primary">
