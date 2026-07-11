@@ -6,6 +6,11 @@ script.js
 
 
 document.addEventListener("DOMContentLoaded",()=>{
+  emailjs.init({
+
+publicKey:"2zKZUOSxMiSxO73re"
+
+});
 
 
 /*==================================================
