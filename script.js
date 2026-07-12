@@ -1,10 +1,3 @@
-/*==================================================
-DANILA STUDIO
-Premium Portfolio
-script.js
-==================================================*/
-
-
 document.addEventListener("DOMContentLoaded",()=>{
   emailjs.init({
 
@@ -13,9 +6,7 @@ publicKey:"2zKZUOSxMiSxO73re"
 });
 
 
-/*==================================================
-PRELOADER
-==================================================*/
+
 const preloader = document.querySelector(".preloader");
 
 
@@ -34,9 +25,6 @@ preloader.classList.add("hide");
 }
 
 
-/*==================================================
-HEADER SCROLL
-==================================================*/
 
 
 const header = document.querySelector(".header");
@@ -60,9 +48,6 @@ header?.classList.remove("active");
 
 
 
-/*==================================================
-BURGER MENU
-==================================================*/
 
 
 const burger = document.querySelector(".burger");
@@ -104,9 +89,7 @@ mobileMenu.classList.remove("active");
 
 
 
-/*==================================================
-CURSOR GLOW
-==================================================*/
+
 
 
 const glow = document.querySelector(".cursor-glow");
@@ -130,9 +113,6 @@ glow.style.top = e.clientY+"px";
 
 
 
-/*==================================================
-SCROLL REVEAL
-==================================================*/
 
 
 const revealElements = document.querySelectorAll(
@@ -207,9 +187,6 @@ revealObserver.observe(el);
 
 
 
-/*==================================================
-SKILL ANIMATION
-==================================================*/
 
 
 const skills = document.querySelectorAll(".fill");
@@ -255,10 +232,6 @@ skillObserver.observe(skill);
 });
 
 
-
-/*==================================================
-FAQ ACCORDION
-==================================================*/
 
 
 const faqItems =
@@ -332,10 +305,6 @@ answer.scrollHeight+"px";
 
 
 
-/*==================================================
-SCROLL TOP
-==================================================*/
-
 
 const scrollTop =
 document.querySelector(".scroll-top");
@@ -386,10 +355,6 @@ behavior:"smooth"
 
 
 
-/*==================================================
-SMOOTH LINKS
-==================================================*/
-
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
 
@@ -428,9 +393,6 @@ block:"start"
 
 
 
-/*==================================================
-3D TILT CARDS
-==================================================*/
 
 
 const tiltCards =
@@ -504,9 +466,6 @@ card.style.transform="";
 
 
 
-/*==================================================
-YEAR FOOTER
-==================================================*/
 
 
 const year =
@@ -520,10 +479,6 @@ new Date().getFullYear();
 
 }
 
-
-/*==================================================
-EMAILJS FORM SEND
-==================================================*/
 
 
 const contactForm = document.querySelector("#contactForm");
